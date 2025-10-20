@@ -63,7 +63,7 @@ where price_per_unit between 100 and 500;
 
 select*
 from "PRACTICAL1"."DATA_SET"."RETAIL_SALES"
-where product_category in('beauty','electronics');
+where product_category in('Beauty','Blectronics');
 
 -----------------------------------------------------
 --Q8. Display all transactions where the Product Category is not 'Clothing'.
@@ -71,7 +71,7 @@ where product_category in('beauty','electronics');
 
 select*
 from "PRACTICAL1"."DATA_SET"."RETAIL_SALES"
-where product_category <> 'clothing';
+where product_category <> 'Clothing';
 
 -----------------------------------------------------
 --Q9. Display all transactions where the Quantity is greater than or equal to 3.
